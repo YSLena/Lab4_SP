@@ -12,8 +12,11 @@ namespace Lab_sp.Models
      * Класс контекста определён как partial
      * Это позволяет нам дополнять его, не изменяя автосгенерированный код
      * (иначе при перестроении модели можно потрять свои изменения)
+     * 
+     * Раскомментируйте код ниже после создания модели
      */
 
+    /*
     public partial class STUD_20Context : DbContext
     {
         public virtual DbSet<Example12_Res> Example12_Res { get; set; }
@@ -21,9 +24,7 @@ namespace Lab_sp.Models
 
          // Используя Fluent API, определяем свойства набора данных
          // В частности указываем, что наборы не имеют ключевого поля
-         // Раскомментируйте код ниже после создания модели
          
-        /*
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Example12_Res>().HasNoKey();
@@ -32,6 +33,6 @@ namespace Lab_sp.Models
             // Возвращайтесь к задаче TODO 1.1c
         }
         */
-    }
+}
 }
 

@@ -35,7 +35,7 @@ namespace Lab_sp
          * Необходимо создать модель сущностых классов, используя подход DataBase First,
          * т.е. сгенерировать модель на основе существующей БД.
          * Для этого в окне диспетчера пакетов (Package Manager Console) выполните команду,
-         * указав в ней путь к БД STUD_20:
+         * указав в ней путь к БД STUD_20 (путь не должен содержать кирилицы и спецсимволов):
          * 
          * Scaffold-DbContext "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\Users\Lena\NET\DB\STUD_20.mdf;Integrated Security=True;Connect Timeout=30" Microsoft.EntityFrameworkCore.SqlServer -Context STUD_20Context -OutputDir Models -Tables STUDENTS, GROUPS, SUBJECTS, TUTORS, CHAIRS, CURRICULUM, Test_Table
          * 
@@ -64,7 +64,7 @@ namespace Lab_sp
         {
             /* Пример 1.0
              * Простой запрос с возвратом объектов сущностного класса Students
-             * Раскомментируйте строку ниже, запустите программу и нажмите на форме первую кнопку "Вызвать!"
+             * Раскомментируйте строку ниже, запустите программу и нажмите на форме первую кнопку "Вызвать пример!"
              */
             //form1.dataGridView11.DataSource = context.Students.FromSqlRaw("SELECT * FROM STUDENTS").ToList();
 
@@ -180,7 +180,7 @@ namespace Lab_sp
          * а также обработку исключений
          * 
          * Для просмотра результатов на форме перейдите на вкладку Вызов хранимых процедур 
-         * и нажмите первую кнопку Вызвать!
+         * и нажмите первую кнопку Вызвать пример!
          */
 
         public int OutValue21 = -1;
