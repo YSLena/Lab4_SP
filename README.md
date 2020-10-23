@@ -11,5 +11,7 @@
 Перед первым запуском установить пакеты 
 - Microsoft.EntityFrameworkCore.SqlServer
 - Microsoft.EntityFrameworkCore.Tools
+
 и построить модель данных командой Scaffold-DbContext
-Пожробные инструкции см. в задаче TODO 0.1 в файле DataAccess.cs
+
+Подробные инструкции см. в задаче TODO 0.1 в файле DataAccess.cs
