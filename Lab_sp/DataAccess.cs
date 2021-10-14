@@ -27,8 +27,8 @@ namespace Lab_sp
          * 
          * Или через консоль диспетчер пакетов (Tools \ NuGet Package Manager \ Package Manager Console), 
          * выполнив команды:
-         * Install-Package Microsoft.EntityFrameworkCore.SqlServer
-         * Install-Package Microsoft.EntityFrameworkCore.Tools
+         * Install-Package Microsoft.EntityFrameworkCore.SqlServer -Version 3.1.9
+         * Install-Package Microsoft.EntityFrameworkCore.Tools -Version 3.1.9
          */
 
         /* TODO 0.2: Создание модели данных
